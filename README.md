@@ -22,7 +22,7 @@ After each training, the similarity function similarity(word1,word2) has to be a
 
 Java has been used for the postprocessing phase. The description of the used codes is given as follows: 
 
-*)MAtrixFromFile.java: this code serves to create a [k*k] matrix from a text file. The text file is the output of the similarity function above and the matrix corresponds to top k similarity matrix that stores the cosine similarity between embedding vectors of k pairs of keywords. 
+*) MAtrixFromFile.java: this code serves to create a [k*k] matrix from a text file. The text file is the output of the similarity function above and the matrix corresponds to top k similarity matrix that stores the cosine similarity between embedding vectors of k pairs of keywords. 
 
 *) RankingMatrix.java: this code serves to rank the similarity matrix and returns the positions of ranked couple of keywords.
 
